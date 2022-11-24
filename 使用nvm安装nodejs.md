@@ -46,8 +46,8 @@ windows安装
 
 安装完后打开C:\nvm\setting.txt添加以下内容，切换node和npm的下载镜像，国内会快很多：
 
-    node_mirror: https://npm.taobao.org/mirrors/node/
-    npm_mirror: https://npm.taobao.org/mirrors/npm/
+    node_mirror: https://npmmirror.com/mirrors/node/
+    npm_mirror: https://npmmirror.com/mirrors/npm/
 
 检查是否安装完成：
 
@@ -79,8 +79,8 @@ nvm use v10.16.3
 配置淘宝镜像：
 
 ```
-npm config set registry https://registry.npm.taobao.org --global 
-npm config set disturl https://npm.taobao.org/dist --global
+npm config set registry https://registry.npmmirror.com/ --global 
+npm config set disturl https://npmmirror.com/dist --global
 ```
 
 验证是否安装完成：
