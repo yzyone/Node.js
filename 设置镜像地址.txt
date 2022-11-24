@@ -1,0 +1,2 @@
+export NVM_NODEJS_ORG_MIRROR=http://npmmirror.com/mirrors/node
+export NVM_IOJS_ORG_MIRROR=https://iojs.org/dist
